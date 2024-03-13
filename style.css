@@ -1,0 +1,101 @@
+
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: "IconicFill", sans-serif;
+}
+
+
+
+
+body{
+  background-color: rgb(31, 96, 96);
+}
+
+.container {
+  width: auto;
+  max-width: 250px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.upper-text {
+  color: white;
+  font-size: 12px;
+  align-self: flex-start;
+  line-height: 1.5;
+}
+
+.message-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.character-picture {
+  background-image: url("profile.jpg");
+  width: 30px;
+  height: 30px;
+  background-color: rgb(7, 200, 230);
+  margin-right: 10px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  background-size: cover;
+}
+
+.message {
+  color: black;
+  font-size: 16px;
+  word-wrap: break-word;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.msgbox{
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 10px;
+justify-content: baseline;
+left:0.1%;
+
+}
+
+#Fnamemsg{
+  border-radius: 20px;
+  border-style: none;
+  padding: 10px;
+  font-size:x-large;
+}
+
+#AddBtn{
+  background-image: url("sendpic.jpg");
+  border-radius: 18px;
+  border-style: none;
+  width: 40px;
+  height:40px;
+  padding: 10px;
+  background-size: cover;
+  position: fixed; /* Position the button */
+  bottom: 1.5%; /* Align it to the bottom */
+  left: 277px;
+  bottom: 13px;
+  
+  
+}
+
+#AddBtn:hover{
+ background-color: aquamarine;
+}
+
+input.msgusersend:focus {
+  outline-width: 0;
+}
+
+
+
